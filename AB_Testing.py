@@ -100,8 +100,7 @@ pd.plotting.scatter_matrix(Test_Group)
 plt.show()
 
 
-# ADIM 3: Analiz işleminden sonra concat metodunu kullanarak kontrol ve test grubu verilerini birleştiriniz.
-# Kontrol ve test grubu verilerinin  karısmaması icin  herbir veriye C,T ekledim.
+
 
 # 1.yol
 #Control_Group.columns= [col + "_C" for col in Control_Group.columns]
@@ -135,8 +134,7 @@ for col in df.columns:
 # H1: M1 != M2
 # .... vardır.
 
-# Adım 2 : Kontrol ve test grubu için purchase(kazanç) ortalamalarını analiz ediniz.
-# Ortalama öncesi veri setlerinde boş degerleri sildim
+
 
 #Ortalamalara baktım
 Control_Group["Purchase"].mean()
